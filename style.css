@@ -1054,7 +1054,7 @@ footer .footer-column a:hover {
     padding-right: 50px;
     padding-left: 50px;
   }
-  /*Registration section*/
+  /*Contact us section*/
   #contact-us {
     width: 95%;
     display: flex;
@@ -1139,6 +1139,14 @@ footer .footer-column a:hover {
     line-height: 1;
   }
   /*scholarship page end*/
+
+  /* Apply now page start */
+  #apply-now {
+    height: 40vh;
+  }
+  #registristion {
+    margin: 40px 10px 40px 10px;
+  }
 }
 
 /* End of editing menu bar icon in tablet and phone mode */
