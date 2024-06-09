@@ -11,6 +11,9 @@
 /* Body Font Family */
 body {
   font-family: "Poppins", sans-serif;
+  /* font-family: "Teko", sans-serif;
+  font-size: medium;
+  font-weight: 700; */
 }
 
 /* Global Heading Styles (h1) */
@@ -241,9 +244,9 @@ nav .navigation ul li a:hover {
   color: navy;
 }
 
-/* REGISTRATION PAGE */
+/* CONTACT US SECTION  */
 
-#registration {
+#contact-us {
   padding: 6vw 8vw 6vw 8vw;
   background-image: linear-gradient(
       rgba(99, 112, 168, 0.5),
@@ -259,22 +262,28 @@ nav .navigation ul li a:hover {
   align-items: center;
 }
 
-#registration .reminder {
+#contact-us .reminder {
   color: whitesmoke;
 }
 
-#registration .reminder h1 {
+#contact-us .reminder h1 {
+  text-transform: uppercase;
   color: rgb(142, 103, 5);
   font-size: 2.2rem;
   letter-spacing: 1px;
 }
 
-#registration .form h3 {
+#contact-us .reminder p {
+  color: rgb(130, 7, 7);
+  font-size: 1.5rem;
+}
+
+#contact-us .form h3 {
   color: rgb(142, 103, 5);
   font-size: 2rem;
 }
 
-#registration .form {
+#contact-us .form {
   background: transparent;
   border-radius: 20px;
   display: flex;
@@ -283,32 +292,50 @@ nav .navigation ul li a:hover {
   box-shadow: #757373;
 }
 
-#registration .form input {
+#contact-us .form input {
   margin: 15px 0;
   font-size: 1.5rem;
   padding: 15px 10px;
   border: 1px solid rgb(142, 103, 5);
   outline: none;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
-#registration .form input::placeholder {
+#contact-us .form textarea {
+  margin: 15px 0;
+  font-size: 1.5rem;
+  padding: 15px 10px;
+  border: 1px solid rgb(142, 103, 5);
+  outline: none;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#contact-us .form input::placeholder {
+  color: goldenrod;
+  font-weight: 500;
+  font-size: 1rem;
+}
+#contact-us .form textarea ::placeholder {
   color: goldenrod;
   font-weight: 500;
   font-size: 1rem;
 }
 
-#registration .form .btn {
+/* #contact-us .form .submit-btn {
   margin-top: 10px;
 }
 
 /* Written by: Jamel B Mensah */
 
-#registration .form a.gold {
-  text-decoration: none;
+.submit-btn {
+  /* text-decoration: none; */
+  cursor: pointer;
   background-color: white;
   font-size: 0.9rem;
   font-weight: 600;
@@ -318,7 +345,7 @@ nav .navigation ul li a:hover {
   background: rgb(142, 103, 5);
 }
 
-#registration a.gold:hover {
+.submit-btn:hover {
   color: rgb(21, 21, 100);
   background: wheat;
   transition: 0.4 ease;
@@ -679,6 +706,7 @@ footer .footer-column a:hover {
   padding-bottom: 60px;
   box-shadow: darkgray 5px 5px 5px;
   margin-top: 20px;
+  padding-left: 20px;
   align-items: center;
   background-color: rgb(245, 237, 222);
   border-color: rgb(218, 165, 32);
@@ -696,7 +724,7 @@ footer .footer-column a:hover {
 
 #team-container .team .team-content p {
   color: navy;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 #team-container .team .team-content a {
@@ -766,6 +794,102 @@ footer .footer-column a:hover {
 }
 /*Scholarship page end*/
 
+/* Editing apply now page */
+
+#apply-home {
+  /* background-image: linear-gradient(
+      rgba(128, 128, 128, 1),
+      rgba(255, 255, 255, 0)
+    ),
+    url(images/customize/scholarship-1.png);
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding-top: 40px; */
+  background-image: linear-gradient(
+      rgba(128, 128, 128, 1),
+      rgba(255, 255, 255, 0)
+    ),
+    url(images/Registrition/registristion.jfif);
+  width: 100%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 0 40px 0;
+}
+
+#apply-home h2 {
+  color: bisque;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#registristion {
+  background-color: bisque;
+  margin: 40px 60px 40px 60px;
+  border-radius: 40px 40px 40px 40px;
+  box-shadow: 10px 10px 10px goldenrod;
+}
+
+#registristion .reg-items {
+  padding: 40px;
+  /* margin: 20px 70px 20px 70px; */
+  text-align: left;
+  color: goldenrod;
+}
+#registristion .reg-items h3 {
+  font-size: 2rem;
+  color: navy;
+}
+
+#registristion .reg-items p {
+  font-size: 1rem;
+}
+
+#registristion .reg-items strong {
+  color: navy;
+  font-size: 1rem;
+}
+
+#registristion .reg-items .input-boxes {
+  margin: 15px 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: navy;
+  padding: 15px 10px;
+  border: 1px solid rgb(142, 103, 5);
+  outline: none;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#registristion .reg-items .input-boxes::placeholder {
+  font-size: 1rem;
+  font-weight: bold;
+  color: navy;
+}
+
+#registristion .reg-items .input-label {
+  font-size: 1.1rem;
+  color: goldenrodblue;
+  font-weight: bold;
+}
+
+/* apply now page end */
+
 /* Editing menu bar icon in tablet and phone mode */
 
 @media (max-width: 769px) {
@@ -822,7 +946,7 @@ footer .footer-column a:hover {
   #course {
     padding: 8vw 4vw 0vw 4vw;
   }
-  #registration {
+  #contact-us {
     padding: 6vw 4vw 6vw 4vw;
   }
   #experts {
@@ -931,7 +1055,7 @@ footer .footer-column a:hover {
     padding-left: 50px;
   }
   /*Registration section*/
-  #registration {
+  #contact-us {
     width: 95%;
     display: flex;
     flex-direction: column;
@@ -941,10 +1065,10 @@ footer .footer-column a:hover {
     padding: 4vw 2vw 0vw 2vw;
   }
 
-  #registration .form {
+  #contact-us .form {
     padding: 0;
   }
-  #registration .form .btn {
+  #contact-us .form .btn {
     margin-bottom: 15px;
   }
 
@@ -1009,11 +1133,11 @@ footer .footer-column a:hover {
   }
   #scholarship-info .text-section ul {
     width: 300px;
-}
-#scholarship-info .text-section h2 {
-  padding-bottom: 15px;
-  line-height: 1;
-}
+  }
+  #scholarship-info .text-section h2 {
+    padding-bottom: 15px;
+    line-height: 1;
+  }
   /*scholarship page end*/
 }
 
